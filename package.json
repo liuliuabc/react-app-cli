@@ -1,0 +1,33 @@
+{
+  "name": "react-app-cli",
+  "version": "0.0.1",
+  "description": "快速高效创建react应用",
+  "bin": {
+    "react-app-cli": "dist/index.js"
+  },
+  "scripts": {
+    "test": "ts-node lib/index.ts",
+    "build": "tsc",
+    "release": "tsc &&sudo npm publish"
+  },
+  "keywords": [
+    "react",
+    "react-cli",
+    "react-app",
+    "react-app-cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^13.1.0",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
